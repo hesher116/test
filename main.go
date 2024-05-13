@@ -8,7 +8,7 @@ func main() {
 	fmt.Print("Вкажіть вартість товару: ")
 	_, err = fmt.Scanln(&obj)
 	if err != nil {
-		fmt.Println("Вкажіть вартість товару!")
+		fmt.Println("Вкажіть  товару!")
 		return
 	}
 	fmt.Print("Вкажіть кількість одиниць товару: ")
